@@ -35,7 +35,7 @@ function celebrate(buttonId, musicId) {
 
   document.addEventListener('click', e => {
     if (e.target.matches(`#${buttonId} *`)) {
-      $song.play()
+      // $song.play()
       createBalloons(100);
     }
   })

@@ -91,10 +91,10 @@ body {
 }
 
 #balloon-container {
-  height: 100%;
-  padding: 1em;
+  height: 100vh;
   box-sizing: border-box;
   display: flex;
+  padding: 1rem;
   flex-wrap: wrap;
   overflow: hidden;
   position: absolute;
